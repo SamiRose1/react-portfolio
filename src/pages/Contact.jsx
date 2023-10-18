@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <main className="h-[80vh] flex justify-center items-center">
-      <div className="  bg-slate-500 w-fit flex items-center justify-center rounded-2xl shadow-xl shadow-neutral-600 bg-opacity-50 text-white text-xl font-extralight h-fit">
+      <div className="  bg-slate-500 bg-opacity-10 w-fit flex items-center justify-center rounded-2xl shadow-xl shadow-neutral-600 text-white text-xl font-extralight h-fit p-2">
         <form
           ref={form}
           onSubmit={sendEmail}

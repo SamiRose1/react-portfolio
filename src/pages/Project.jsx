@@ -10,22 +10,65 @@ import App1 from "../images/app1.png";
 import App2 from "../images/app2.png";
 import App3 from "../images/app3.png";
 import App4 from "../images/app4.png";
+import App5 from "../images/app5.png";
 
 const Project = () => {
+  // imported icons from react-icons
+  //projects sections
+  //the projects are in span to help me adjust propery
   return (
     <main className="h-[80vh] flex flex-col justify-center items-center w-full">
-      <div className="flex  justify-center items-center  overflow-x-scroll w-[100%]">
-        <span className="flex justify-center items-center flex-col m-2 z-50 ml-[1000px] ">
+      <div className="flex  justify-center items-center  overflow-x-scroll w-[100%] scrollbar-hide m-0 ">
+        <span className="flex justify-center items-center flex-col  ml-[1500px] lg:ml-[1000px] md:ml-[1500px] sm:ml-[1500px]">
+          {/* added the margin left because the scroll bar was cutting content */}
+          {/* there are links that lead to github code and live demo site */}
           <p> (MERN)To-Do App</p>
           <img
             src={App1}
             alt=""
             className="min-w-[400px] shadow-xl shadow-indigo-300 rounded-2xl"
           />
+          <span className="m-2">
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1   "
+              target="_blank"
+              href="https://github.com/SamiRose1/to-do-auth-client-.git"
+            >
+              Visit Code
+            </a>
 
-          <a href="https://to-do-kc0f.onrender.com/" target="_blank">
-            (Click here!)
-          </a>
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://to-do-kc0f.onrender.com/"
+            >
+              Visit Site
+            </a>
+          </span>
+        </span>
+        <span className="flex justify-center items-center flex-col m-2">
+          <p> Portfolio</p>
+          <img
+            src={App5}
+            alt=""
+            className="min-w-[400px] shadow-xl shadow-indigo-300 rounded-2xl  "
+          />
+          <span className="m-2">
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://github.com/SamiRose1/react-portfolio.git"
+            >
+              Visit Code
+            </a>
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://weather-app-27r7.onrender.com/"
+            >
+              Visit Site
+            </a>
+          </span>
         </span>
         <span className="flex justify-center items-center flex-col m-2 ">
           <p> News App</p>
@@ -34,33 +77,70 @@ const Project = () => {
             alt=""
             className="min-w-[400px] shadow-xl shadow-indigo-300 rounded-2xl  "
           />
-          <a href="https://news-corners.netlify.app/" target="_blank">
-            (Click here!)
-          </a>
+          <span className="m-2">
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://github.com/SamiRose1/News-App.git"
+            >
+              Visit Code
+            </a>
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://news-corners.netlify.app/"
+            >
+              Visit Site
+            </a>
+          </span>
         </span>
         <span className="flex justify-center items-center flex-col m-2">
-          <p> Banking App</p>
+          <p> Banking App (Landing Page)</p>
           <img
             src={App3}
             alt=""
-            className="min-w-[400px] shadow-xl shadow-indigo-300  rounded-2xl "
+            className="min-w-[400px] shadow-xl shadow-indigo-300  rounded-2xl"
           />
-
-          <a href="https://debanker.netlify.app/" target="_blank">
-            (Click here!)
-          </a>
+          <span className="m-2">
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://github.com/SamiRose1/Banker-App.git"
+            >
+              Visit Code
+            </a>
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://debanker.netlify.app/"
+            >
+              Visit Site
+            </a>
+          </span>
         </span>
-        <span className="flex justify-center items-center flex-col m-2 ">
+        <span className="flex justify-center items-center flex-col m-2">
           <p> Weather App</p>
           <img
             src={App4}
             alt=""
             className="min-w-[400px] shadow-xl shadow-indigo-300 rounded-2xl  "
           />
-
-          <a href="https://weather-app-27r7.onrender.com/" target="_blank">
-            (Click here!)
-          </a>
+          <span className="m-2">
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://github.com/SamiRose1/weather-app-react.git"
+            >
+              Visit Code
+            </a>
+            <a
+              className="p-1 bg-white text-black rounded-lg m-1  "
+              target="_blank"
+              href="https://weather-app-27r7.onrender.com/"
+            >
+              Visit Site
+            </a>
+          </span>
         </span>
       </div>
       <h3 className="text-5xl  font-thin p-4">under my belt is,</h3>

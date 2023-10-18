@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <main
       className="flex flex-row
-    justify-between items-center p-3 rounded-xl text-white   bg-opacity-50 font-extralight font-serif  lg:text-2xl  md:text-lg  md:w-1/2 sm:text-xl sm:w-2/3 lg:w-2/4 bg-slate-400 shadow-xl shadow-neutral-600 w-fit"
+    justify-between items-center p-3 rounded-xl text-white   bg-opacity-70 font-extralight font-serif  lg:text-2xl  md:text-lg  md:w-1/2 sm:text-xl sm:w-2/3 lg:w-2/4 bg-indigo-600 shadow-xl shadow-neutral-600 w-fit"
     >
       <Link
         className="hover:shadow shadow-3xl hover:shadow-black p-1 hover:text-black hover:scale-125 rounded-lg  "
