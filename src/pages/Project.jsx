@@ -64,7 +64,7 @@ const Project = () => {
             <a
               className="p-1 bg-white text-black rounded-lg m-1  "
               target="_blank"
-              href="https://weather-app-27r7.onrender.com/"
+              href="https://seim-yemane.onrender.com/"
             >
               Visit Site
             </a>
