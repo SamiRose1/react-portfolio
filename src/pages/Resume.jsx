@@ -10,7 +10,7 @@ const Resume = () => {
         Seim Yemane <br /> 1823 ,24 ST, NW <br /> Alberta, Edmonton, T6T 2G7
         <br />
         seimyemane8@gmail.com <br />
-        780-802-9234 <br />
+{/*         780-802-9234 <br /> */}
         <br />
         <a
           href="https://www.linkedin.com/in/seim-yemane-b82430259/"
